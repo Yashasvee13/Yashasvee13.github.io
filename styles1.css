@@ -196,19 +196,19 @@ p{
 
 .skill{
     margin-left: 25%;
-    margin-top: 25px;
+    margin-top: 22px;
     display: inline-block;
-    padding: 8px 7px;
+    padding: 7px 6px;
     position: relative;
 }
 .skill i{
     font-size: 45px;
     color: #2D283E; ;
     position: relative;
-    padding: 6px;
+    padding: 5px;
 }
 .skill h3{
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .bar{
