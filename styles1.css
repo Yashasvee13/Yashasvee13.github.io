@@ -47,14 +47,13 @@
 
 .box2 ul li a {
     color: white;
-    /* text-decoration: none; */
+    text-decoration: none;
     margin: 0 50px;
     font-size: 25px;
     font-weight: bold;
 }
 #current{
     text-decoration: solid underline #d8bdf7 5px;
-
 }
 #current:hover{
     text-decoration: none;
