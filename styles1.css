@@ -46,7 +46,7 @@
 
 #box2 ul li a {
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
     margin: 0 50px;
     font-size: 25px;
     font-weight: bold;
