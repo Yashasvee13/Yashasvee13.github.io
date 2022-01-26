@@ -51,11 +51,11 @@
     font-size: 25px;
     font-weight: bold;
 }
-.current{
+#current{
     text-decoration: solid underline #d8bdf7 5px;
 
 }
-.current:hover{
+#current:hover{
     text-decoration: none;
 }
 
