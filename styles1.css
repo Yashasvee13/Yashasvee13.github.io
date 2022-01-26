@@ -46,7 +46,7 @@
 
 #box2 ul li a {
     color: white;
-    /* text-decoration: none; */
+    text-decoration: none;
     margin: 0 50px;
     font-size: 25px;
     font-weight: bold;
@@ -76,17 +76,17 @@
     top:20%;
     color:white;
     font-family: 'DM Sans', sans-serif;
-    width:50vw;
+    width:55vw;
 }
 p{
 
-    font-size:30px;
-    width: 40vw;
+    font-size:27px;
+    width: 45vw;
     
 }
 .banner h2{
  
-    font-size:70px;
+    font-size:60px;
 }
 #box2 ul li a:hover {
     background-color: #D1D7E0;
