@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading h2{
+    /* color: #2D283E; */
+    /* color: #D1D7E0;  */
+    /* color: #564F6F;  */
+    /* color: #4C495D;  */
+    /* color: #802BB1;  */
+
+}
+
+
+#navbar {
+    background-color: #802BB1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    z-index: 5;
+    position: fixed;
+}
+
+#box1, #box2 {
+    display: flex;
+}
+
+#box1 {
+    padding: 30px;
+    color:white;
+}
+
+#box2 {
+    width: 50%;
+    padding: 40 0px;
+    justify-content: right;
+    align-items: center;
+}
+
+#box2 ul li {
+    display: inline;
+    list-style: none;
+    font-size:21px;
+}
+
+#box2 ul li a {
+    color: white;
+    /* text-decoration: none; */
+    margin: 0 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.current{
+    text-decoration: solid underline #d8bdf7 5px;
+
+}
+.current:hover{
+    text-decoration: none;
+}
+
+.banner{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.60), rgba(117, 19, 93, 0.73)),
+    url('https://wallpaperaccess.com/full/632832.png');
+    width : 100%;
+    height : 100vh;
+    background-size: cover;
+    color: white;
+    
+}
+.banner .heading{
+    padding:30px;
+    position:absolute;
+    left:100px;
+    top:20%;
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+    width:50vw;
+}
+p{
+    font-size:30px;
+    width: 40vw;
+    
+}
+.banner h2{
+    font-size:70px;
+}
+#box2 ul li a:hover {
+    background-color: #D1D7E0;
+    transition-duration: 0.1s;
+    color: #802BB1;
+    border-radius: 9px;
+    padding:4px;
+}
+
+
+.btn{
+    margin-right: 3%;   
+    background-color: #802BB1;
+    border:none;
+    border-radius:12px;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:bold;
+     
+}
+.btn:hover {
+    background-color: #D1D7E0;
+    color: #802BB1;
+    transition-duration: 0.5s;
+}
+#self{
+    position:absolute;
+    left: 65%;
+    top: 27%;
+    width: 25%;
+    min-width: 400px;
+    
+}
+/* HOBBIES */
+.hobbies{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://wallpaperaccess.com/full/632832.png');
+    width : 100%;
+    height : 100vh;
+    background-size: cover;
+    color: white;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+.hobbies h1{
+    font-size: 60px;
+    font-style: normal;
+}
+.hobby{
+    display: inline-block;
+    padding: 80px 70px;
+    position: relative;
+}
+.hobby i{
+    font-size: 50px;
+    margin-top: 10%;
+    color: #802BB1;
+    margin-bottom: 40% ;
+}
+.hobby h3{
+    font-size: 35px;
+}
+.hobby::before{
+    content: '';
+    position: absolute;
+    left:20%;
+    right: 0;
+    bottom: 75px;
+    height: 4px;
+    max-width: 60%;
+    background-color: #4C495D;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+.hobby:hover::before{
+    transform: scaleX(1);
+}
+.hobby:hover{
+    transform: scale(1.3);
+}
+/* SKILLS */
+.skills{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://wallpaperaccess.com/full/632832.png');
+    width : 100%;
+    height : 100vh;
+    background-size: cover;
+    color: white;
+    position: absolute;
+    top: 6%;
+    text-align: left; 
+    
+}
+.skills h1{
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+}
+
+.skill{
+    margin-left: 25%;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 8px 7px;
+    position: relative;
+}
+.skill i{
+    font-size: 45px;
+    color: #2D283E; ;
+    position: relative;
+    padding: 6px;
+}
+.skill h3{
+    font-size: 30px;
+}
+
+.bar{
+    border: 3px solid #2D283E;
+    border-radius: 20px;
+    width: 50vw;  
+}
+.bar div {
+    
+    width: 0;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #802BB1;
+   
+ 
+}
+#bar1{
+    animation: bar1-fill 3s forwards;
+}
+#bar2{
+    animation: bar2-fill 3s forwards;
+}
+#bar3{
+    animation: bar3-fill 3s forwards;
+}
+#bar4{
+    animation: bar4-fill 3s forwards;
+}
+#bar5{
+    animation: bar5-fill 3s forwards;
+}
+#bar6{
+    animation: bar6-fill 3s forwards;
+}
+@keyframes bar1-fill {
+    100%{
+        width: 90%;
+    }
+}
+@keyframes bar2-fill{
+    100%{
+        width: 97%;
+    }
+}
+@keyframes bar3-fill{
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes bar4-fill{
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes bar5-fill {
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes bar6-fill{
+    100%{
+        width: 65%;
+    }
+} 
+
+
