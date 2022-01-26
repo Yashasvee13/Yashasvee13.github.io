@@ -8,11 +8,8 @@
     /* color: #564F6F;  */
     /* color: #4C495D;  */
     /* color: #802BB1;  */
-
 }
-
-
-#navbar {
+.navbar {
     background-color: #802BB1;
     display: flex;
     width: 100%;
@@ -22,29 +19,33 @@
     position: fixed;
 }
 
-#box1, #box2 {
+.box1, 
+.box2 {
     display: flex;
 }
 
-#box1 {
+.box1 {
     padding: 30px;
     color:white;
 }
+.box1 a{
+    color: white;
+}
 
-#box2 {
+.box2 {
     width: 50%;
     padding: 40 0px;
     justify-content: right;
     align-items: center;
 }
 
-#box2 ul li {
+.box2 ul li {
     display: inline;
     list-style: none;
     font-size:21px;
 }
 
-#box2 ul li a {
+.box2 ul li a {
     color: white;
     /* text-decoration: none; */
     margin: 0 50px;
@@ -81,14 +82,14 @@
 p{
 
     font-size:27px;
-    width: 45vw;
+    width: 40vw;
     
 }
 .banner h2{
  
-    font-size:60px;
+    font-size:70px;
 }
-#box2 ul li a:hover {
+.box2 ul li a:hover {
     background-color: #D1D7E0;
     transition-duration: 0.1s;
     color: #802BB1;
